@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Employees" xml:space="preserve">
+    <value>Danh sách nhân viên</value>
+  </data>
+  <data name="Error_AddressMaxLength" xml:space="preserve">
+    <value>Đại chỉ không được vượt quá 255 ký tự</value>
+  </data>
+  <data name="Error_ApplyDateOvertimeRequired" xml:space="preserve">
+    <value>Ngày nộp đơn không được để trống</value>
+  </data>
+  <data name="Error_ApprovalOvertimeRequired" xml:space="preserve">
+    <value>Người duyệt không được để trống</value>
+  </data>
+  <data name="Error_BankBranchMaxLength" xml:space="preserve">
+    <value>Chi nhánh không được vượt quá 255 ký tự</value>
+  </data>
+  <data name="Error_BankNameMaxLength" xml:space="preserve">
+    <value>Tên ngân hàng không được vượt quá 255 ký tự</value>
+  </data>
+  <data name="Error_BankNumberMaxLength" xml:space="preserve">
+    <value>Tài khoản ngân hàng không được vượt quá 25 ký tự</value>
+  </data>
+  <data name="Error_BreakTimeFromLessFromDateOvertime" xml:space="preserve">
+    <value>Nghỉ giữa ca từ phải lớn hơn hoặc bằng Làm thêm từ</value>
+  </data>
+  <data name="Error_BreakTimeFromOvertimeRequired" xml:space="preserve">
+    <value>Nghỉ giữa ca từ không được để trống khi đã nhập Nghỉ giữa ca đến</value>
+  </data>
+  <data name="Error_BreakTimeToBiggerToDateOvertime" xml:space="preserve">
+    <value>Làm thêm đến phải lớn hơn hoặc bằng Nghỉ giữa ca đến</value>
+  </data>
+  <data name="Error_BreakTimeToLessBreakTimeFromOvertime" xml:space="preserve">
+    <value>Nghỉ giữa ca đến phải lớn hơn hoặc bằng Nghỉ giữa ca từ</value>
+  </data>
+  <data name="Error_BreakTimeToOvertimeRequired" xml:space="preserve">
+    <value>Nghỉ giữa ca đến không được để trống khi đã nhập Nghỉ giữa ca từ</value>
+  </data>
+  <data name="Error_CareerTitlesMaxLength" xml:space="preserve">
+    <value>Chức danh không được vượt quá 255 ký tự</value>
+  </data>
+  <data name="Error_DateFormatInvalid" xml:space="preserve">
+    <value>Kiểu định dạng không hợp lệ</value>
+  </data>
+  <data name="Error_DateOfBirthInvalid" xml:space="preserve">
+    <value>Ngày sinh không được lớn hơn ngày hiện tại</value>
+  </data>
+  <data name="Error_DepartmentInvalid" xml:space="preserve">
+    <value>Đơn vị ko hợp lệ</value>
+  </data>
+  <data name="Error_DepartmentNotFound" xml:space="preserve">
+    <value>Đơn vị không tồn tại</value>
+  </data>
+  <data name="Error_DepartmentRequired" xml:space="preserve">
+    <value>Đơn vị không được để trống</value>
+  </data>
+  <data name="Error_EmailInvalid" xml:space="preserve">
+    <value>Email không đúng định dạng</value>
+  </data>
+  <data name="Error_EmailMaxLength" xml:space="preserve">
+    <value>Nơi cấp không được vượt quá 50 ký tự</value>
+  </data>
+  <data name="Error_EmployeeCodeExists" xml:space="preserve">
+    <value>Mã nhân viên đã tồn tại trong hệ thống vui lòng kiểm tra lại</value>
+  </data>
+  <data name="Error_EmployeeCodeInvalid" xml:space="preserve">
+    <value>Mã nhân viên không vượt quá 20 ký tự</value>
+  </data>
+  <data name="Error_EmployeeCodeMaxLength" xml:space="preserve">
+    <value>Mã nhân viên không được vượt quá 20 ký tự</value>
+  </data>
+  <data name="Error_EmployeeCodeRequired" xml:space="preserve">
+    <value>Mã nhân viên không được để trống</value>
+  </data>
+  <data name="Error_EmployeeNotFound" xml:space="preserve">
+    <value>Nhân viên không tồn tại trong hệ thống</value>
+  </data>
+  <data name="Error_EmployeeOvertimeRequired" xml:space="preserve">
+    <value>Người nộp đơn không được để trống</value>
+  </data>
+  <data name="Error_Exception" xml:space="preserve">
+    <value>Có lỗi xảy ra vui lòng liên hệ MISA để được trợ giúp</value>
+  </data>
+  <data name="Error_FieldFilterInvalid" xml:space="preserve">
+    <value>Trường lọc không hợp lệ</value>
+  </data>
+  <data name="Error_FromDateBiggerTodateOvertime" xml:space="preserve">
+    <value>Làm thêm từ không được lớn hơn làm thêm đến</value>
+  </data>
+  <data name="Error_FromDateOvertimeRequired" xml:space="preserve">
+    <value>Làm thêm từ không được để trống</value>
+  </data>
+  <data name="Error_FullNameMaxLength" xml:space="preserve">
+    <value>Tên nhân viên không được vượt quá 100 ký tự</value>
+  </data>
+  <data name="Error_FullNameRequired" xml:space="preserve">
+    <value>Tên nhân viên không được để trống</value>
+  </data>
+  <data name="Error_IdentityDateInvalid" xml:space="preserve">
+    <value>Ngày cấp không được lớn hơn ngày hiện tại</value>
+  </data>
+  <data name="Error_IdentityNumberMaxLength" xml:space="preserve">
+    <value>Số CCCD không được vượt quá 25 ký tự</value>
+  </data>
+  <data name="Error_IdentityPlaceMaxLength" xml:space="preserve">
+    <value>Nơi cấp không được vượt quá 255 ký tự</value>
+  </data>
+  <data name="Error_Input" xml:space="preserve">
+    <value>Lỗi nhập từ người dùng</value>
+  </data>
+  <data name="Error_LandlinePhoneMaxLength" xml:space="preserve">
+    <value>Điện thoại cố định không được vượt quá 50 ký tự</value>
+  </data>
+  <data name="Error_MinArrayLength" xml:space="preserve">
+    <value>{0} có độ dài tối thiểu là {1}.</value>
+  </data>
+  <data name="Error_OvertimeEmployeesRequired" xml:space="preserve">
+    <value>Danh sách nhân viên làm thêm không được để trống</value>
+  </data>
+  <data name="Error_OverTimeInWorkingShiftOvertimeRequired" xml:space="preserve">
+    <value>Thời điểm làm thêm không được để trống</value>
+  </data>
+  <data name="Error_OvertimeTypeRequired" xml:space="preserve">
+    <value>Loại làm thêm không được để trống</value>
+  </data>
+  <data name="Error_PhoneNumberMaxLength" xml:space="preserve">
+    <value>Điện thoại đi động không được vượt quá 50 ký tự</value>
+  </data>
+  <data name="Error_ReasonOvertimeRequired" xml:space="preserve">
+    <value>Lý do làm thêm không được để trống</value>
+  </data>
+  <data name="Error_StatusOvertimeRequired" xml:space="preserve">
+    <value>Trạng thái không được để trống</value>
+  </data>
+  <data name="Error_ToDateLessBreakTimeToOvertime" xml:space="preserve">
+    <value>Làm thêm đến phải lớn hơn hoặc bằng Nghỉ giữa ca đến</value>
+  </data>
+  <data name="Error_ToDateOvertimeRequired" xml:space="preserve">
+    <value>Làm thêm đến không được để trống</value>
+  </data>
+  <data name="Error_WorkingShiftOvertimeRequired" xml:space="preserve">
+    <value>Ca áp dụng không được để trống</value>
+  </data>
+  <data name="Information" xml:space="preserve">
+    <value>Thông tin chung</value>
+  </data>
+  <data name="NumericalOrder" xml:space="preserve">
+    <value>STT</value>
+  </data>
+  <data name="OvertimeEmployees" xml:space="preserve">
+    <value>Danh sách nhân viên làm thêm</value>
+  </data>
+  <data name="Overtimes" xml:space="preserve">
+    <value>Đơn đăng ký làm thêm</value>
+  </data>
+  <data name="Status_Approved" xml:space="preserve">
+    <value>Đã duyệt</value>
+  </data>
+  <data name="Status_Pending" xml:space="preserve">
+    <value>Chờ duyệt</value>
+  </data>
+  <data name="Status_Refuse" xml:space="preserve">
+    <value>Từ chối</value>
+  </data>
+</root>
